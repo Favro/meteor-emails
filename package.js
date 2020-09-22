@@ -10,7 +10,7 @@ Package.describe({
 
 Package.onUse(function(api) {
 
-  api.versionsFrom('1.0.4');
+  api.versionsFrom('METEOR@1.10.2');
 
   api.use([
     'chrisbutler:node-sass@3.2.0',
@@ -37,6 +37,8 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
+  api.versionsFrom('METEOR@1.10.2');
+
   api.use([
     'ecmascript',
     'underscore',

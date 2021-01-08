@@ -9,9 +9,6 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-
-  api.versionsFrom('METEOR@1.10.2');
-
   api.use([
     'chrisbutler:node-sass@3.2.0',
     'iron:router@1.0.7',

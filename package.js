@@ -34,7 +34,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.versionsFrom('METEOR@1.10.2');
+  api.versionsFrom('METEOR@2.3');
 
   api.use([
     'ecmascript',
